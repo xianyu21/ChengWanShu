@@ -42,32 +42,31 @@
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
-       
       }
-      @media (max-width: 767px) {
-        .swiper-slide{
-          font-size: 1.2rem;
-          font-weight: 600;
+      /* 超小设备 (手机, 600px 以下屏幕设备) */
+      @media only screen and (max-width: 600px) {
+        .swiper-slide {
+          font-size: 3.6rem;
         }
       }
-      @media (min-width: 768px) {
-        .swiper-slide{
+      /* 小设备 (平板电脑和大型手机，600 像素及以上) */
+      @media only screen and (min-width: 600px) {
+        .swiper-slide {
           font-size: 7.2rem;
           font-weight: 600;
         }
       }
-      @media (min-width: 992px) {
-        .swiper-slide{
+      /* 中型设备（平板电脑，768 像素及以上） */
+      @media only screen and (min-width: 768px) {
+        .swiper-slide {
           font-size: 7.2rem;
           font-weight: 600;
         }
       }
-      @media (min-width: 1200px) {
-        .swiper-slide{
-          font-size: 7.2rem;
-          font-weight: 600;
-        }
-      }
+      /* 大型设备（笔记本电脑/台式机，992 像素及以上） */
+      @media only screen and (min-width: 992px) {}
+      /* 超大型设备（大型笔记本电脑和台式机，1200 像素及以上） */
+      @media only screen and (min-width: 1200px) {}
       /* 正式发布 */
       .swiper-slide .swiper-text {
         -webkit-transform: rotate(90deg);
@@ -99,16 +98,43 @@
           <div class="swiper-text">正式的恋爱说是要从收到的一束花和表白开始才算</div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-text">我在想 该怎么给二姐写小作文</div>
+          <div class="swiper-text">花有了 我在想 该怎么给二姐写小作文</div>
         </div>
         <div class="swiper-slide">
           <div class="swiper-text">始于二零二三年一月十九号 我们开始了第一次交流</div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-text">有了和二姐的第一次压马路 第二三四五...次</div>
+          <div class="swiper-text">有了和二姐的第一二三四五...次压马路</div>
         </div>
         <div class="swiper-slide">
           <div class="swiper-text">某天说是人格魅力征服了我 我更愿意说是姐姐魅力太大 </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">从最开始的姐就是女王 莫挨我</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">到现在的能牵能抱 能举高高</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">称呼也有了变化 爽妹儿 爽哥 乖乖 李总</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">要牢记二姐的唯一喜好 gold</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">很感谢二姐的第一通语音电话 让我如此安心</div>
+        </div>
+        <!--  <div class="swiper-slide">
+          <div class="swiper-text">约串串 也是一忘再忘三忘</div>
+        </div> -->
+        <div class="swiper-slide">
+          <div class="swiper-text">爱你哟 二姐</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">小作文 End!那最后一张就请二姐自己翻</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">二姐 你愿意做我女朋友?</div>
         </div>
         <!-- <div class="swiper-slide">
           <div class="swiper-text">某天某天某天某天某天某天某天某天某天某天某天某天某天某天某天</div>
