@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        font-size: 7.2rem;
+        font-weight: 600;
+      }
+      /* 正式发布 */
+      .swiper-slide .swiper-text {
+       -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Swiper -->
+    <!-- 每个页面最多三十个字 -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+       <div class="swiper-slide">
+          <div class="swiper-text">你好!程婉淑</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">即将成为我的女朋友的你 准备好？</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">正式的恋爱说是要从收到的一束花和表白开始才算</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">我在想 该怎么给二姐写小作文</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">始于二零二三年一月十九号 我们开始了第一次交流</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">有了和二姐的第一次压马路 第二三四五...次</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">某天说是人格魅力征服了我 我更愿意说是姐姐魅力太大 </div>
+        </div>
+       <!-- <div class="swiper-slide">
+          <div class="swiper-text">某天某天某天某天某天某天某天某天某天某天某天某天某天某天某天</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">某天某天某天某天某天某天某天某天某天某天某天某天某天某天1a</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-text">某天某天某天某天某天某天某天某天某天某天某天某天某天某天1a</div>
+        </div> -->
+      </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: 'vertical', // 正式发布
+      });
+    </script>
+  </body>
+</html>
